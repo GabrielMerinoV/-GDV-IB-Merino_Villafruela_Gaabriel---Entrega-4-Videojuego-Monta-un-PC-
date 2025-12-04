@@ -1,0 +1,397 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 733979405258351,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 668322692973092
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Comprobar",
+					"sid": 216504461811649
+				}
+			],
+			"actions": [],
+			"sid": 808448679971644
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 427501305914251
+				}
+			],
+			"actions": [
+				{
+					"id": "rotate-clockwise",
+					"objectClass": "Sprite_Placa_base",
+					"sid": 156455276503036,
+					"parameters": {
+						"degrees": "0"
+					}
+				}
+			],
+			"sid": 761547551244691
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite_Placa_base",
+					"sid": 446315331875040,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite_Placa_base",
+					"sid": 309871096288157,
+					"parameters": {
+						"object": "Sprite12"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite_Placa_base",
+					"sid": 837479407326447,
+					"parameters": {
+						"x": "Sprite12.X",
+						"y": "Sprite12.Y"
+					}
+				}
+			],
+			"sid": 128224911238689
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite_Fuente_de_alimentacion",
+					"sid": 952334755835519,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite_Fuente_de_alimentacion",
+					"sid": 822955467586574,
+					"parameters": {
+						"object": "Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite_Fuente_de_alimentacion",
+					"sid": 337306837429296,
+					"parameters": {
+						"x": "Sprite2.X",
+						"y": "Sprite2.Y"
+					}
+				}
+			],
+			"sid": 784778671467150
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite_CPU",
+					"sid": 174433027921192,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite_CPU",
+					"sid": 825822942714993,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite_CPU",
+					"sid": 432894806624233,
+					"parameters": {
+						"x": "Sprite3.X",
+						"y": "Sprite3.Y"
+					}
+				}
+			],
+			"sid": 334120430828042
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite_Disipador",
+					"sid": 860768985850149,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite_Disipador",
+					"sid": 204233013047589,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite_Disipador",
+					"sid": 861126922772149,
+					"parameters": {
+						"x": "Sprite4.X",
+						"y": "Sprite4.Y"
+					}
+				}
+			],
+			"sid": 599660990532072
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite_GPU",
+					"sid": 431578685368289,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite_GPU",
+					"sid": 803003488878680,
+					"parameters": {
+						"object": "Sprite5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite_GPU",
+					"sid": 634485646240243,
+					"parameters": {
+						"x": "Sprite5.X",
+						"y": "Sprite5.Y"
+					}
+				}
+			],
+			"sid": 292350928695901
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "Sprite_Ram",
+					"sid": 653469827480845,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite_Ram",
+					"sid": 746760657146996,
+					"parameters": {
+						"object": "Sprite6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite_Ram",
+					"sid": 436324447097929,
+					"parameters": {
+						"x": "Sprite6.X",
+						"y": "Sprite6.Y"
+					}
+				}
+			],
+			"sid": 697049917329960
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextInput_Placa_base",
+					"sid": 878735899401114,
+					"parameters": {
+						"text": "\"Placa base\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite_Placa_base",
+					"sid": 458987089938850,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 533361952772115
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextInput_GPU",
+					"sid": 766845222590028,
+					"parameters": {
+						"text": "\"GPU\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite_GPU",
+					"sid": 129126967899876,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 784050421143232
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextInput_Disispador",
+					"sid": 550751872265164,
+					"parameters": {
+						"text": "\"Disipador\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite_Disipador",
+					"sid": 889128687697480,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 123230674330052
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextInput_Fuente_de_alimentacion",
+					"sid": 390158533865920,
+					"parameters": {
+						"text": "\"Fuente de alimentación\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite_Fuente_de_alimentacion",
+					"sid": 175396845641215,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 957943903981845
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextInput_CPU",
+					"sid": 535903570824451,
+					"parameters": {
+						"text": "\"CPU\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite_CPU",
+					"sid": 229058915556293,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 143821587473374
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "TextInput_Ram",
+					"sid": 323198186553316,
+					"parameters": {
+						"text": "\"Ram\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Sprite_Ram",
+					"sid": 729447571328877,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 462408916046507
+		}
+	],
+	"sid": 142763970121816
+}

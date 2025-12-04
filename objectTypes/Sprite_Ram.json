@@ -1,0 +1,78 @@
+{
+	"name": "Sprite_Ram",
+	"plugin-id": "Sprite",
+	"sid": 406953533277477,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 140866916844145
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 788423786209432
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pin2",
+			"sid": 900806505862695
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 197,
+						"height": 1040,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9414599,
+						"collisionPoly": {
+							"points": [
+								0.8223350253807107,
+								0.7423076923076923,
+								0.7868020304568528,
+								0.9057692307692308,
+								0.7614213197969544,
+								0.9653846153846154,
+								0.15228426395939088,
+								0.9519230769230769,
+								0.1116751269035533,
+								0.9307692307692308,
+								0.09644670050761417,
+								0.8519230769230769,
+								0.09644670050761417,
+								0.07307692307692304,
+								0.17766497461928932,
+								0.04615384615384621,
+								0.7969543147208122,
+								0.029807692307692313
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 829437125957623,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
