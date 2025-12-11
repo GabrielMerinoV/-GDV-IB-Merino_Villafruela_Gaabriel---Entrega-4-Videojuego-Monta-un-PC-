@@ -1,13 +1,13 @@
 {
-	"name": "menu",
+	"name": "Escena 2",
 	"layers": [
 		{
-			"name": "Layer 0",
+			"name": "Capa 0",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite7",
+					"type": "Sprite13",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,22 +15,22 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 28,
-					"sid": 324810232334083,
+					"uid": 42,
+					"sid": 939328511361243,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 324810232334083,
+						"sid": 939328511361243,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 640.5,
-						"y": 362,
-						"width": 1276,
-						"height": 726,
+						"x": 644,
+						"y": 361.5,
+						"width": 1298.2925776126522,
+						"height": 730.8442438238231,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -44,67 +44,14 @@
 					}
 				},
 				{
-					"type": "titulo",
+					"type": "Texto2",
 					"properties": {
-						"text": "Aprende a montar un ordenador",
-						"enable-bbcode": true,
-						"font": "sans-serif",
-						"size": 75,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"text-direction": "ltr",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 34,
-					"sid": 133726735598602,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 133726735598602,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 86,
-						"y": 153,
-						"width": 1094,
-						"height": 364,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text2",
-					"properties": {
-						"text": "START",
+						"text": "Felicidades has compleatdo el juego\n",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 58,
+						"size": 46,
 						"line-height": 0,
-						"bold": true,
+						"bold": false,
 						"italic": false,
 						"color": [
 							0,
@@ -121,22 +68,75 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 35,
-					"sid": 374016796840102,
+					"uid": 43,
+					"sid": 850349880932066,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 374016796840102,
+						"sid": 850349880932066,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 500,
-						"y": 481,
-						"width": 304,
-						"height": 123,
+						"x": 127,
+						"y": 219,
+						"width": 1136,
+						"height": 266,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto3",
+					"properties": {
+						"text": "Siempre serás recordado como el/la Dios@ creador@ de este gran PC.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 20,
+						"line-height": 0,
+						"bold": false,
+						"italic": true,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 44,
+					"sid": 732154542296295,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 732154542296295,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 261,
+						"y": 383,
+						"width": 722,
+						"height": 176,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -150,7 +150,7 @@
 					}
 				}
 			],
-			"sid": 663940579863488,
+			"sid": 370565703496075,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -184,7 +184,7 @@
 		"items": [],
 		"subfolders": []
 	},
-	"sid": 453371508168894,
+	"sid": 263253271039401,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 2560,
@@ -193,5 +193,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Hoja de eventos 2"
 }
