@@ -2,6 +2,16 @@
 	"name": "Hoja de eventos 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Puntuación",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 144348298169010
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -391,6 +401,229 @@
 				}
 			],
 			"sid": 462408916046507
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite_Placa_base",
+					"sid": 215078809455291,
+					"parameters": {
+						"object": "Sprite12"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 282985474577988,
+					"parameters": {
+						"variable": "Puntuación",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "sumar",
+					"sid": 496591577636405,
+					"parameters": {
+						"text": "Puntuación"
+					}
+				}
+			],
+			"sid": 899807634029649
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite_Fuente_de_alimentacion",
+					"sid": 627671741545218,
+					"parameters": {
+						"object": "Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 968743373148756,
+					"parameters": {
+						"variable": "Puntuación",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "sumar",
+					"sid": 766747157833364,
+					"parameters": {
+						"text": "Puntuación"
+					}
+				}
+			],
+			"sid": 398487595829942
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite_CPU",
+					"sid": 100556694913718,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 809966649927953,
+					"parameters": {
+						"variable": "Puntuación",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "sumar",
+					"sid": 438115107977306,
+					"parameters": {
+						"text": "Puntuación"
+					}
+				}
+			],
+			"sid": 740459160014793
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite_Disipador",
+					"sid": 880681370503472,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 797736834008524,
+					"parameters": {
+						"variable": "Puntuación",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "sumar",
+					"sid": 143303418224157,
+					"parameters": {
+						"text": "Puntuación"
+					}
+				}
+			],
+			"sid": 749789684761229
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite_GPU",
+					"sid": 742627757784568,
+					"parameters": {
+						"object": "Sprite5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 844635356006597,
+					"parameters": {
+						"variable": "Puntuación",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "sumar",
+					"sid": 623381138712786,
+					"parameters": {
+						"text": "Puntuación"
+					}
+				}
+			],
+			"sid": 365923184485906
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite_Ram",
+					"sid": 190983498849857,
+					"parameters": {
+						"object": "Sprite6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 517856575472514,
+					"parameters": {
+						"variable": "Puntuación",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "sumar",
+					"sid": 569508516142847,
+					"parameters": {
+						"text": "Puntuación"
+					}
+				}
+			],
+			"sid": 363513109086199
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "sumar",
+					"sid": 849742866136225,
+					"parameters": {
+						"text-to-compare": "\"8\"",
+						"case-sensitivity": "ignore-case"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 606738470003368,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				}
+			],
+			"sid": 643460692071948
 		}
 	],
 	"sid": 142763970121816

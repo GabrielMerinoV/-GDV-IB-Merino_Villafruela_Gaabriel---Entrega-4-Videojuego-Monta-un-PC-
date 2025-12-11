@@ -108,7 +108,12 @@
 			"Sprite8",
 			"Text3",
 			"Sprite11",
-			"Text4"
+			"Text4",
+			"Texto",
+			"sumar",
+			"Sprite13",
+			"Texto2",
+			"Texto3"
 		],
 		"subfolders": []
 	},
@@ -123,14 +128,16 @@
 		"items": [
 			"menu",
 			"Layout 1",
-			"Escena 1"
+			"Escena 1",
+			"Escena 2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Event sheet 1"
+			"Event sheet 1",
+			"Hoja de eventos 2"
 		],
 		"subfolders": []
 	},
